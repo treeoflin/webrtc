@@ -1,0 +1,6 @@
+../../../audio_device/android/java/src/org/webrtc/voiceengine/BuildInfo.java
+../../../audio_device/android/java/src/org/webrtc/voiceengine/WebRtcAudioEffects.java
+../../../audio_device/android/java/src/org/webrtc/voiceengine/WebRtcAudioManager.java
+../../../audio_device/android/java/src/org/webrtc/voiceengine/WebRtcAudioRecord.java
+../../../audio_device/android/java/src/org/webrtc/voiceengine/WebRtcAudioTrack.java
+../../../audio_device/android/java/src/org/webrtc/voiceengine/WebRtcAudioUtils.java

@@ -1,0 +1,28 @@
+{
+  "deps_info": {
+    "deps_configs": [],
+    "gradle_treat_as_prebuilt": null,
+    "is_prebuilt": true,
+    "jar_path": "lib.java/third_party/icu4j/icu4j-53.1.jar",
+    "java": {
+      "full_classpath": []
+    },
+    "name": "icu4j_java.build_config",
+    "path": "gen/third_party/icu4j/icu4j_java.build_config",
+    "requires_android": null,
+    "supports_android": null,
+    "type": "java_library"
+  },
+  "gradle": {
+    "bundled_srcjars": [],
+    "dependent_android_projects": [],
+    "dependent_java_projects": [],
+    "dependent_prebuilt_jars": []
+  },
+  "javac": {
+    "classpath": [],
+    "interface_classpath": [],
+    "resource_packages": [],
+    "srcjars": []
+  }
+}

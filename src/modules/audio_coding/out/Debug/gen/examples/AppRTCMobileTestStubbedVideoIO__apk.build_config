@@ -1,0 +1,283 @@
+{
+  "assets": [],
+  "compressed_locales_java_list": "{}",
+  "deps_info": {
+    "android_manifest": "../../../../examples/androidtests/AndroidManifest.xml",
+    "apk_path": "apks/AppRTCMobileTestStubbedVideoIO.apk",
+    "deps_configs": [
+      "gen/examples/AppRTCMobile_javalib.build_config",
+      "gen/sdk/android/libjingle_peerconnection_java.build_config",
+      "gen/third_party/android_support_test_runner/rules_java__classes.build_config",
+      "gen/third_party/android_support_test_runner/rules_java__res.build_config",
+      "gen/third_party/android_support_test_runner/runner_java.build_config",
+      "gen/third_party/espresso/espresso_contrib_java.build_config",
+      "gen/third_party/espresso/espresso_core_java.build_config",
+      "gen/third_party/espresso/espresso_idling_java.build_config",
+      "gen/third_party/espresso/espresso_intents_java.build_config",
+      "gen/third_party/espresso/espresso_web_java.build_config",
+      "gen/third_party/hamcrest/hamcrest_core_java.build_config",
+      "gen/third_party/hamcrest/hamcrest_integration_java.build_config",
+      "gen/third_party/hamcrest/hamcrest_library_java.build_config",
+      "gen/third_party/junit/junit.build_config",
+      "gen/testing/android/broker/broker_java.build_config"
+    ],
+    "dex_path": "gen/examples/AppRTCMobileTestStubbedVideoIO__apk/classes.dex",
+    "enable_relocation_packing": "0",
+    "incremental_apk_path": "apks/AppRTCMobileTestStubbedVideoIO_incremental.apk",
+    "incremental_install_json_path": "gen/examples/AppRTCMobileTestStubbedVideoIO__apk.incremental.json",
+    "jar_path": "gen/examples/AppRTCMobileTestStubbedVideoIO__apk/AppRTCMobileTestStubbedVideoIO__apk.jar",
+    "java": {
+      "full_classpath": [
+        "lib.java/third_party/hamcrest/hamcrest-library-1.3.jar",
+        "lib.java/third_party/espresso/espresso-idling-resource-2.2.1-release-no-dep.jar",
+        "lib.java/third_party/android_support_test_runner/exposed-instrumentation-api-publish-0.5-no-dep.jar",
+        "lib.java/examples/androidapp/third_party/autobanh/autobanh.jar",
+        "lib.java/third_party/bazel/desugar/Desugar-runtime.jar",
+        "lib.java/build/android/buildhooks/build_hooks_java.jar",
+        "lib.java/third_party/android_tools/support/support-annotations-25.0.1.jar",
+        "lib.java/third_party/hamcrest/hamcrest-integration-1.3.jar",
+        "lib.java/third_party/hamcrest/hamcrest-core-1.3.jar",
+        "lib.java/third_party/guava/guava-20.0.jar",
+        "lib.java/third_party/javax_inject/javax.inject-1.jar",
+        "lib.java/build/android/buildhooks/build_hooks_android_java.jar",
+        "lib.java/third_party/android_support_test_runner/rules_java.jar",
+        "lib.java/third_party/espresso/espresso-core-2.2.1-release-no-dep.jar",
+        "lib.java/rtc_base/base_java.jar",
+        "lib.java/modules/audio_device/audio_device_java.jar",
+        "lib.java/third_party/espresso/espresso-contrib-2.2.1-release-no-dep.jar",
+        "lib.java/third_party/espresso/espresso-web-2.2.1-release-no-dep.jar",
+        "lib.java/sdk/android/libjingle_peerconnection_java.jar",
+        "lib.java/testing/android/broker/broker_java.jar",
+        "lib.java/third_party/junit/junit.jar",
+        "lib.java/sdk/android/libjingle_peerconnection_metrics_default_java.jar",
+        "lib.java/examples/AppRTCMobile_javalib.jar",
+        "lib.java/third_party/android_support_test_runner/runner-0.5-release-no-dep.jar",
+        "lib.java/third_party/espresso/espresso-intents-2.2.1-release-no-dep.jar",
+        "gen/examples/AppRTCMobile/AppRTCMobile.jar"
+      ]
+    },
+    "java_sources_file": "gen/examples/AppRTCMobileTestStubbedVideoIO__apk/AppRTCMobileTestStubbedVideoIO__apk.sources",
+    "name": "AppRTCMobileTestStubbedVideoIO__apk.build_config",
+    "owned_resources_dirs": [],
+    "owned_resources_zips": [],
+    "package_name": "org.appspot.apprtc.test",
+    "path": "gen/examples/AppRTCMobileTestStubbedVideoIO__apk.build_config",
+    "proguard_enabled": null,
+    "proguard_info": null,
+    "type": "android_apk"
+  },
+  "dist_jar": {
+    "all_interface_jars": [
+      "lib.java/third_party/hamcrest/hamcrest-library-1.3.interface.jar",
+      "lib.java/third_party/espresso/espresso-idling-resource-2.2.1-release-no-dep.interface.jar",
+      "lib.java/third_party/android_support_test_runner/exposed-instrumentation-api-publish-0.5-no-dep.interface.jar",
+      "lib.java/examples/androidapp/third_party/autobanh/autobanh.interface.jar",
+      "lib.java/third_party/bazel/desugar/Desugar-runtime.interface.jar",
+      "lib.java/build/android/buildhooks/build_hooks_java.interface.jar",
+      "lib.java/third_party/android_tools/support/support-annotations-25.0.1.interface.jar",
+      "lib.java/third_party/hamcrest/hamcrest-integration-1.3.interface.jar",
+      "lib.java/third_party/hamcrest/hamcrest-core-1.3.interface.jar",
+      "lib.java/third_party/guava/guava-20.0.interface.jar",
+      "lib.java/third_party/javax_inject/javax.inject-1.interface.jar",
+      "lib.java/build/android/buildhooks/build_hooks_android_java.interface.jar",
+      "lib.java/third_party/android_support_test_runner/rules_java.interface.jar",
+      "lib.java/third_party/espresso/espresso-core-2.2.1-release-no-dep.interface.jar",
+      "lib.java/rtc_base/base_java.interface.jar",
+      "lib.java/modules/audio_device/audio_device_java.interface.jar",
+      "lib.java/third_party/espresso/espresso-contrib-2.2.1-release-no-dep.interface.jar",
+      "lib.java/third_party/espresso/espresso-web-2.2.1-release-no-dep.interface.jar",
+      "lib.java/sdk/android/libjingle_peerconnection_java.interface.jar",
+      "lib.java/testing/android/broker/broker_java.interface.jar",
+      "lib.java/third_party/junit/junit.interface.jar",
+      "lib.java/sdk/android/libjingle_peerconnection_metrics_default_java.interface.jar",
+      "lib.java/examples/AppRTCMobile_javalib.interface.jar",
+      "lib.java/third_party/android_support_test_runner/runner-0.5-release-no-dep.interface.jar",
+      "lib.java/third_party/espresso/espresso-intents-2.2.1-release-no-dep.interface.jar",
+      "gen/examples/AppRTCMobileTestStubbedVideoIO__apk/AppRTCMobileTestStubbedVideoIO__apk.interface.jar"
+    ],
+    "dependency_jars": [
+      "lib.java/third_party/hamcrest/hamcrest-library-1.3.jar",
+      "lib.java/third_party/espresso/espresso-idling-resource-2.2.1-release-no-dep.jar",
+      "lib.java/third_party/android_support_test_runner/exposed-instrumentation-api-publish-0.5-no-dep.jar",
+      "lib.java/examples/androidapp/third_party/autobanh/autobanh.jar",
+      "lib.java/third_party/bazel/desugar/Desugar-runtime.jar",
+      "lib.java/build/android/buildhooks/build_hooks_java.jar",
+      "lib.java/third_party/android_tools/support/support-annotations-25.0.1.jar",
+      "lib.java/third_party/hamcrest/hamcrest-integration-1.3.jar",
+      "lib.java/third_party/hamcrest/hamcrest-core-1.3.jar",
+      "lib.java/third_party/guava/guava-20.0.jar",
+      "lib.java/third_party/javax_inject/javax.inject-1.jar",
+      "lib.java/build/android/buildhooks/build_hooks_android_java.jar",
+      "lib.java/third_party/android_support_test_runner/rules_java.jar",
+      "lib.java/third_party/espresso/espresso-core-2.2.1-release-no-dep.jar",
+      "lib.java/rtc_base/base_java.jar",
+      "lib.java/modules/audio_device/audio_device_java.jar",
+      "lib.java/third_party/espresso/espresso-contrib-2.2.1-release-no-dep.jar",
+      "lib.java/third_party/espresso/espresso-web-2.2.1-release-no-dep.jar",
+      "lib.java/sdk/android/libjingle_peerconnection_java.jar",
+      "lib.java/testing/android/broker/broker_java.jar",
+      "lib.java/third_party/junit/junit.jar",
+      "lib.java/sdk/android/libjingle_peerconnection_metrics_default_java.jar",
+      "lib.java/examples/AppRTCMobile_javalib.jar",
+      "lib.java/third_party/android_support_test_runner/runner-0.5-release-no-dep.jar",
+      "lib.java/third_party/espresso/espresso-intents-2.2.1-release-no-dep.jar"
+    ]
+  },
+  "extra_android_manifests": [
+    "gen/third_party/android_support_test_runner/rules_java/AndroidManifest.xml"
+  ],
+  "final_dex": {
+    "dependency_dex_files": [
+      "gen/third_party/hamcrest/hamcrest_library_java.dex.jar",
+      "gen/third_party/espresso/espresso_idling_java.dex.jar",
+      "gen/third_party/android_support_test_runner/exposed_instrumentation_api_publish_java.dex.jar",
+      "gen/third_party/hamcrest/hamcrest_integration_java.dex.jar",
+      "gen/third_party/hamcrest/hamcrest_core_java.dex.jar",
+      "gen/third_party/guava/guava_java.dex.jar",
+      "gen/third_party/javax_inject/javax_inject_java.dex.jar",
+      "gen/third_party/android_support_test_runner/rules_java__classes.dex.jar",
+      "gen/third_party/espresso/espresso_core_java.dex.jar",
+      "gen/third_party/espresso/espresso_contrib_java.dex.jar",
+      "gen/third_party/espresso/espresso_web_java.dex.jar",
+      "gen/testing/android/broker/broker_java.dex.jar",
+      "gen/third_party/junit/junit.dex.jar",
+      "gen/third_party/android_support_test_runner/runner_java.dex.jar",
+      "gen/third_party/espresso/espresso_intents_java.dex.jar"
+    ]
+  },
+  "gradle": {
+    "apk_under_test": "AppRTCMobile.build_config",
+    "bundled_srcjars": [],
+    "dependent_android_projects": [
+      "gen/examples/AppRTCMobile_javalib.build_config",
+      "gen/sdk/android/libjingle_peerconnection_java.build_config",
+      "gen/testing/android/broker/broker_java.build_config"
+    ],
+    "dependent_java_projects": [
+      "gen/build/android/buildhooks/build_hooks_java.build_config"
+    ],
+    "dependent_prebuilt_jars": [
+      "lib.java/third_party/android_support_test_runner/rules_java.jar",
+      "lib.java/third_party/android_support_test_runner/runner-0.5-release-no-dep.jar",
+      "lib.java/third_party/espresso/espresso-contrib-2.2.1-release-no-dep.jar",
+      "lib.java/third_party/espresso/espresso-core-2.2.1-release-no-dep.jar",
+      "lib.java/third_party/espresso/espresso-idling-resource-2.2.1-release-no-dep.jar",
+      "lib.java/third_party/espresso/espresso-intents-2.2.1-release-no-dep.jar",
+      "lib.java/third_party/espresso/espresso-web-2.2.1-release-no-dep.jar",
+      "lib.java/third_party/hamcrest/hamcrest-core-1.3.jar",
+      "lib.java/third_party/hamcrest/hamcrest-integration-1.3.jar",
+      "lib.java/third_party/hamcrest/hamcrest-library-1.3.jar",
+      "lib.java/third_party/junit/junit.jar"
+    ],
+    "srcjars": [
+      "gen/third_party/android_support_test_runner/rules_java__res.srcjar"
+    ]
+  },
+  "java_resources_jars": [],
+  "javac": {
+    "classpath": [
+      "lib.java/examples/AppRTCMobile_javalib.jar",
+      "lib.java/sdk/android/libjingle_peerconnection_java.jar",
+      "lib.java/third_party/android_support_test_runner/rules_java.jar",
+      "lib.java/third_party/android_support_test_runner/runner-0.5-release-no-dep.jar",
+      "lib.java/third_party/espresso/espresso-contrib-2.2.1-release-no-dep.jar",
+      "lib.java/third_party/espresso/espresso-core-2.2.1-release-no-dep.jar",
+      "lib.java/third_party/espresso/espresso-idling-resource-2.2.1-release-no-dep.jar",
+      "lib.java/third_party/espresso/espresso-intents-2.2.1-release-no-dep.jar",
+      "lib.java/third_party/espresso/espresso-web-2.2.1-release-no-dep.jar",
+      "lib.java/third_party/hamcrest/hamcrest-core-1.3.jar",
+      "lib.java/third_party/hamcrest/hamcrest-integration-1.3.jar",
+      "lib.java/third_party/hamcrest/hamcrest-library-1.3.jar",
+      "lib.java/third_party/junit/junit.jar",
+      "lib.java/testing/android/broker/broker_java.jar",
+      "gen/examples/AppRTCMobile/AppRTCMobile.jar"
+    ],
+    "interface_classpath": [
+      "lib.java/examples/AppRTCMobile_javalib.interface.jar",
+      "lib.java/sdk/android/libjingle_peerconnection_java.interface.jar",
+      "lib.java/third_party/android_support_test_runner/rules_java.interface.jar",
+      "lib.java/third_party/android_support_test_runner/runner-0.5-release-no-dep.interface.jar",
+      "lib.java/third_party/espresso/espresso-contrib-2.2.1-release-no-dep.interface.jar",
+      "lib.java/third_party/espresso/espresso-core-2.2.1-release-no-dep.interface.jar",
+      "lib.java/third_party/espresso/espresso-idling-resource-2.2.1-release-no-dep.interface.jar",
+      "lib.java/third_party/espresso/espresso-intents-2.2.1-release-no-dep.interface.jar",
+      "lib.java/third_party/espresso/espresso-web-2.2.1-release-no-dep.interface.jar",
+      "lib.java/third_party/hamcrest/hamcrest-core-1.3.interface.jar",
+      "lib.java/third_party/hamcrest/hamcrest-integration-1.3.interface.jar",
+      "lib.java/third_party/hamcrest/hamcrest-library-1.3.interface.jar",
+      "lib.java/third_party/junit/junit.interface.jar",
+      "lib.java/testing/android/broker/broker_java.interface.jar",
+      "gen/examples/AppRTCMobile/AppRTCMobile.interface.jar"
+    ],
+    "srcjars": []
+  },
+  "jni": {
+    "all_source": [
+      "gen/build/android/buildhooks/build_hooks_java.sources",
+      "gen/build/android/buildhooks/build_hooks_android_java.sources",
+      "gen/rtc_base/base_java.sources",
+      "gen/modules/audio_device/audio_device_java.sources",
+      "gen/sdk/android/libjingle_peerconnection_java.sources",
+      "gen/testing/android/broker/broker_java.sources",
+      "gen/third_party/junit/junit.sources",
+      "gen/sdk/android/libjingle_peerconnection_metrics_default_java.sources",
+      "gen/examples/AppRTCMobile_javalib.sources",
+      "gen/examples/AppRTCMobileTestStubbedVideoIO__apk/AppRTCMobileTestStubbedVideoIO__apk.sources"
+    ]
+  },
+  "native": {
+    "java_libraries_list": null,
+    "libraries": [],
+    "secondary_abi_java_libraries_list": null,
+    "secondary_abi_libraries": []
+  },
+  "proguard": {
+    "input_paths": [
+      "gen/examples/AppRTCMobileTestStubbedVideoIO__apk/AppRTCMobileTestStubbedVideoIO__apk.jar",
+      "lib.java/third_party/hamcrest/hamcrest-library-1.3.jar",
+      "lib.java/third_party/espresso/espresso-idling-resource-2.2.1-release-no-dep.jar",
+      "lib.java/third_party/android_support_test_runner/exposed-instrumentation-api-publish-0.5-no-dep.jar",
+      "lib.java/examples/androidapp/third_party/autobanh/autobanh.jar",
+      "lib.java/third_party/bazel/desugar/Desugar-runtime.jar",
+      "lib.java/build/android/buildhooks/build_hooks_java.jar",
+      "lib.java/third_party/android_tools/support/support-annotations-25.0.1.jar",
+      "lib.java/third_party/hamcrest/hamcrest-integration-1.3.jar",
+      "lib.java/third_party/hamcrest/hamcrest-core-1.3.jar",
+      "lib.java/third_party/guava/guava-20.0.jar",
+      "lib.java/third_party/javax_inject/javax.inject-1.jar",
+      "lib.java/build/android/buildhooks/build_hooks_android_java.jar",
+      "lib.java/third_party/android_support_test_runner/rules_java.jar",
+      "lib.java/third_party/espresso/espresso-core-2.2.1-release-no-dep.jar",
+      "lib.java/rtc_base/base_java.jar",
+      "lib.java/modules/audio_device/audio_device_java.jar",
+      "lib.java/third_party/espresso/espresso-contrib-2.2.1-release-no-dep.jar",
+      "lib.java/third_party/espresso/espresso-web-2.2.1-release-no-dep.jar",
+      "lib.java/sdk/android/libjingle_peerconnection_java.jar",
+      "lib.java/testing/android/broker/broker_java.jar",
+      "lib.java/third_party/junit/junit.jar",
+      "lib.java/sdk/android/libjingle_peerconnection_metrics_default_java.jar",
+      "lib.java/examples/AppRTCMobile_javalib.jar",
+      "lib.java/third_party/android_support_test_runner/runner-0.5-release-no-dep.jar",
+      "lib.java/third_party/espresso/espresso-intents-2.2.1-release-no-dep.jar",
+      "gen/examples/AppRTCMobile/AppRTCMobile.jar"
+    ],
+    "lib_configs": [
+      "../../../../third_party/hamcrest/proguard.flags",
+      "../../../../third_party/junit/proguard.flags"
+    ],
+    "lib_paths": []
+  },
+  "resources": {
+    "dependency_zips": [
+      "resource_zips/third_party/android_support_test_runner/rules_java__res.resources.zip"
+    ],
+    "extra_package_names": [
+      "android.support.test.rule"
+    ],
+    "extra_r_text_files": [
+      "gen/third_party/android_support_test_runner/rules_java__res_R.txt"
+    ]
+  },
+  "uncompressed_assets": [],
+  "uncompressed_locales_java_list": "{}"
+}

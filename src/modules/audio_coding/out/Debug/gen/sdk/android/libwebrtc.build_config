@@ -1,0 +1,75 @@
+{
+  "deps_info": {
+    "deps_configs": [
+      "gen/sdk/android/libjingle_peerconnection_java.build_config",
+      "gen/sdk/android/libjingle_peerconnection_metrics_default_java.build_config",
+      "gen/modules/audio_device/audio_device_java.build_config",
+      "gen/rtc_base/base_java.build_config",
+      "gen/build/android/buildhooks/build_hooks_android_impl_java.build_config"
+    ],
+    "java": {
+      "full_classpath": [
+        "lib.java/build/android/buildhooks/build_hooks_android_java.jar",
+        "lib.java/build/android/buildhooks/build_hooks_android_impl_java.jar",
+        "lib.java/rtc_base/base_java.jar",
+        "lib.java/modules/audio_device/audio_device_java.jar",
+        "lib.java/sdk/android/libjingle_peerconnection_metrics_default_java.jar",
+        "lib.java/sdk/android/libjingle_peerconnection_java.jar"
+      ]
+    },
+    "name": "libwebrtc.build_config",
+    "path": "gen/sdk/android/libwebrtc.build_config",
+    "proguard_enabled": null,
+    "proguard_info": null,
+    "requires_android": true,
+    "supports_android": true,
+    "type": "dist_jar"
+  },
+  "dist_jar": {
+    "all_interface_jars": [
+      "lib.java/build/android/buildhooks/build_hooks_android_java.interface.jar",
+      "lib.java/build/android/buildhooks/build_hooks_android_impl_java.interface.jar",
+      "lib.java/rtc_base/base_java.interface.jar",
+      "lib.java/modules/audio_device/audio_device_java.interface.jar",
+      "lib.java/sdk/android/libjingle_peerconnection_metrics_default_java.interface.jar",
+      "lib.java/sdk/android/libjingle_peerconnection_java.interface.jar"
+    ],
+    "dependency_jars": [
+      "lib.java/build/android/buildhooks/build_hooks_android_java.jar",
+      "lib.java/build/android/buildhooks/build_hooks_android_impl_java.jar",
+      "lib.java/rtc_base/base_java.jar",
+      "lib.java/modules/audio_device/audio_device_java.jar",
+      "lib.java/sdk/android/libjingle_peerconnection_metrics_default_java.jar",
+      "lib.java/sdk/android/libjingle_peerconnection_java.jar"
+    ]
+  },
+  "gradle": {},
+  "javac": {
+    "classpath": [
+      "lib.java/sdk/android/libjingle_peerconnection_java.jar",
+      "lib.java/sdk/android/libjingle_peerconnection_metrics_default_java.jar",
+      "lib.java/modules/audio_device/audio_device_java.jar",
+      "lib.java/rtc_base/base_java.jar",
+      "lib.java/build/android/buildhooks/build_hooks_android_impl_java.jar"
+    ],
+    "interface_classpath": [
+      "lib.java/sdk/android/libjingle_peerconnection_java.interface.jar",
+      "lib.java/sdk/android/libjingle_peerconnection_metrics_default_java.interface.jar",
+      "lib.java/modules/audio_device/audio_device_java.interface.jar",
+      "lib.java/rtc_base/base_java.interface.jar",
+      "lib.java/build/android/buildhooks/build_hooks_android_impl_java.interface.jar"
+    ]
+  },
+  "proguard": {
+    "input_paths": [
+      "lib.java/build/android/buildhooks/build_hooks_android_java.jar",
+      "lib.java/build/android/buildhooks/build_hooks_android_impl_java.jar",
+      "lib.java/rtc_base/base_java.jar",
+      "lib.java/modules/audio_device/audio_device_java.jar",
+      "lib.java/sdk/android/libjingle_peerconnection_metrics_default_java.jar",
+      "lib.java/sdk/android/libjingle_peerconnection_java.jar"
+    ],
+    "lib_configs": [],
+    "lib_paths": []
+  }
+}

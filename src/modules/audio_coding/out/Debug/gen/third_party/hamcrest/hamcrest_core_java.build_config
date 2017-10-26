@@ -1,0 +1,34 @@
+{
+  "deps_info": {
+    "deps_configs": [],
+    "dex_path": "gen/third_party/hamcrest/hamcrest_core_java.dex.jar",
+    "gradle_treat_as_prebuilt": null,
+    "is_prebuilt": true,
+    "jar_path": "lib.java/third_party/hamcrest/hamcrest-core-1.3.jar",
+    "java": {
+      "full_classpath": []
+    },
+    "name": "hamcrest_core_java.build_config",
+    "owned_resources_dirs": [],
+    "owned_resources_zips": [],
+    "path": "gen/third_party/hamcrest/hamcrest_core_java.build_config",
+    "proguard_configs": [
+      "../../../../third_party/hamcrest/proguard.flags"
+    ],
+    "requires_android": null,
+    "supports_android": true,
+    "type": "java_library"
+  },
+  "gradle": {
+    "bundled_srcjars": [],
+    "dependent_android_projects": [],
+    "dependent_java_projects": [],
+    "dependent_prebuilt_jars": []
+  },
+  "javac": {
+    "classpath": [],
+    "interface_classpath": [],
+    "resource_packages": [],
+    "srcjars": []
+  }
+}

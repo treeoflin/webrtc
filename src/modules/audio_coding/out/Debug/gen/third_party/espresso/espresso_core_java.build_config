@@ -1,0 +1,63 @@
+{
+  "deps_info": {
+    "deps_configs": [
+      "gen/third_party/android_tools/support/android_support_annotations_java.build_config",
+      "gen/third_party/guava/guava_java.build_config",
+      "gen/third_party/hamcrest/hamcrest_core_java.build_config",
+      "gen/third_party/javax_inject/javax_inject_java.build_config",
+      "gen/build/android/buildhooks/build_hooks_java.build_config"
+    ],
+    "dex_path": "gen/third_party/espresso/espresso_core_java.dex.jar",
+    "gradle_treat_as_prebuilt": null,
+    "is_prebuilt": true,
+    "jar_path": "lib.java/third_party/espresso/espresso-core-2.2.1-release-no-dep.jar",
+    "java": {
+      "full_classpath": [
+        "lib.java/third_party/bazel/desugar/Desugar-runtime.jar",
+        "lib.java/third_party/javax_inject/javax.inject-1.jar",
+        "lib.java/third_party/hamcrest/hamcrest-core-1.3.jar",
+        "lib.java/third_party/guava/guava-20.0.jar",
+        "lib.java/third_party/android_tools/support/support-annotations-25.0.1.jar",
+        "lib.java/build/android/buildhooks/build_hooks_java.jar"
+      ]
+    },
+    "name": "espresso_core_java.build_config",
+    "owned_resources_dirs": [],
+    "owned_resources_zips": [],
+    "path": "gen/third_party/espresso/espresso_core_java.build_config",
+    "requires_android": true,
+    "supports_android": true,
+    "type": "java_library"
+  },
+  "gradle": {
+    "bundled_srcjars": [],
+    "dependent_android_projects": [],
+    "dependent_java_projects": [
+      "gen/build/android/buildhooks/build_hooks_java.build_config"
+    ],
+    "dependent_prebuilt_jars": [
+      "lib.java/third_party/android_tools/support/support-annotations-25.0.1.jar",
+      "lib.java/third_party/guava/guava-20.0.jar",
+      "lib.java/third_party/hamcrest/hamcrest-core-1.3.jar",
+      "lib.java/third_party/javax_inject/javax.inject-1.jar"
+    ]
+  },
+  "javac": {
+    "classpath": [
+      "lib.java/third_party/android_tools/support/support-annotations-25.0.1.jar",
+      "lib.java/third_party/guava/guava-20.0.jar",
+      "lib.java/third_party/hamcrest/hamcrest-core-1.3.jar",
+      "lib.java/third_party/javax_inject/javax.inject-1.jar",
+      "lib.java/build/android/buildhooks/build_hooks_java.jar"
+    ],
+    "interface_classpath": [
+      "lib.java/third_party/android_tools/support/support-annotations-25.0.1.interface.jar",
+      "lib.java/third_party/guava/guava-20.0.interface.jar",
+      "lib.java/third_party/hamcrest/hamcrest-core-1.3.interface.jar",
+      "lib.java/third_party/javax_inject/javax.inject-1.interface.jar",
+      "lib.java/build/android/buildhooks/build_hooks_java.interface.jar"
+    ],
+    "resource_packages": [],
+    "srcjars": []
+  }
+}

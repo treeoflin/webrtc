@@ -1,0 +1,82 @@
+{
+  "deps_info": {
+    "deps_configs": [
+      "gen/third_party/android_tools/google_play_services_base_java__classes.build_config",
+      "gen/third_party/android_tools/google_play_services_base_java__res.build_config",
+      "gen/third_party/android_tools/google_play_services_basement_java__classes.build_config",
+      "gen/third_party/android_tools/google_play_services_basement_java__res.build_config",
+      "gen/build/android/buildhooks/build_hooks_java.build_config",
+      "gen/build/android/buildhooks/build_hooks_android_java.build_config"
+    ],
+    "dex_path": "gen/third_party/android_tools/google_play_services_auth_base_java__classes.dex.jar",
+    "gradle_treat_as_prebuilt": null,
+    "is_prebuilt": true,
+    "jar_path": "lib.java/third_party/android_tools/google_play_services_auth_base_java.jar",
+    "java": {
+      "full_classpath": [
+        "lib.java/third_party/android_tools/support/support-annotations-25.0.1.jar",
+        "lib.java/build/android/buildhooks/build_hooks_android_java.jar",
+        "lib.java/third_party/bazel/desugar/Desugar-runtime.jar",
+        "lib.java/build/android/buildhooks/build_hooks_java.jar",
+        "lib.java/third_party/android_tools/support/android_support_core_utils_java-internal_impl-25.0.1.jar",
+        "lib.java/third_party/android_tools/support/android_support_fragment_java-internal_impl-25.0.1.jar",
+        "lib.java/third_party/android_tools/support/android_support_core_ui_java-internal_impl-25.0.1.jar",
+        "lib.java/third_party/android_tools/support/android_support_media_compat_java-internal_impl-25.0.1.jar",
+        "lib.java/third_party/android_tools/support/android_support_compat_java-internal_impl-25.0.1.jar",
+        "lib.java/third_party/android_tools/support/android_support_compat_java.jar",
+        "lib.java/third_party/android_tools/support/android_support_core_ui_java.jar",
+        "lib.java/third_party/android_tools/support/android_support_media_compat_java.jar",
+        "lib.java/third_party/android_tools/support/android_support_core_utils_java.jar",
+        "lib.java/third_party/android_tools/support/android_support_fragment_java.jar",
+        "lib.java/third_party/android_tools/google_play_services_basement_java.jar",
+        "lib.java/third_party/android_tools/google_play_services_tasks_java.jar",
+        "lib.java/third_party/android_tools/google_play_services_base_java.jar"
+      ]
+    },
+    "name": "google_play_services_auth_base_java__classes.build_config",
+    "owned_resources_dirs": [],
+    "owned_resources_zips": [],
+    "path": "gen/third_party/android_tools/google_play_services_auth_base_java__classes.build_config",
+    "proguard_configs": [
+      "gen/third_party/android_tools/google_play_services_auth_base_java/proguard.txt"
+    ],
+    "requires_android": true,
+    "supports_android": true,
+    "type": "java_library"
+  },
+  "gradle": {
+    "bundled_srcjars": [],
+    "dependent_android_projects": [
+      "gen/build/android/buildhooks/build_hooks_android_java.build_config"
+    ],
+    "dependent_java_projects": [
+      "gen/build/android/buildhooks/build_hooks_java.build_config"
+    ],
+    "dependent_prebuilt_jars": [
+      "lib.java/third_party/android_tools/google_play_services_base_java.jar",
+      "lib.java/third_party/android_tools/google_play_services_basement_java.jar"
+    ]
+  },
+  "javac": {
+    "classpath": [
+      "lib.java/third_party/android_tools/google_play_services_base_java.jar",
+      "lib.java/third_party/android_tools/google_play_services_basement_java.jar",
+      "lib.java/build/android/buildhooks/build_hooks_java.jar",
+      "lib.java/build/android/buildhooks/build_hooks_android_java.jar"
+    ],
+    "interface_classpath": [
+      "lib.java/third_party/android_tools/google_play_services_base_java.interface.jar",
+      "lib.java/third_party/android_tools/google_play_services_basement_java.interface.jar",
+      "lib.java/build/android/buildhooks/build_hooks_java.interface.jar",
+      "lib.java/build/android/buildhooks/build_hooks_android_java.interface.jar"
+    ],
+    "resource_packages": [
+      "com.google.android.gms.base",
+      "com.google.android.gms"
+    ],
+    "srcjars": [
+      "gen/third_party/android_tools/google_play_services_base_java__res.srcjar",
+      "gen/third_party/android_tools/google_play_services_basement_java__res.srcjar"
+    ]
+  }
+}

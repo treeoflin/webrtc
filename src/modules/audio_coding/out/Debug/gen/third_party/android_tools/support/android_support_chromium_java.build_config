@@ -1,0 +1,43 @@
+{
+  "deps_info": {
+    "deps_configs": [
+      "gen/build/android/buildhooks/build_hooks_java.build_config"
+    ],
+    "dex_path": "gen/third_party/android_tools/support/android_support_chromium_java.dex.jar",
+    "gradle_treat_as_prebuilt": null,
+    "is_prebuilt": false,
+    "jar_path": "lib.java/third_party/android_tools/support/android_support_chromium_java.jar",
+    "java": {
+      "full_classpath": [
+        "lib.java/third_party/bazel/desugar/Desugar-runtime.jar",
+        "lib.java/build/android/buildhooks/build_hooks_java.jar"
+      ]
+    },
+    "java_sources_file": "gen/third_party/android_tools/support/android_support_chromium_java.sources",
+    "name": "android_support_chromium_java.build_config",
+    "owned_resources_dirs": [],
+    "owned_resources_zips": [],
+    "path": "gen/third_party/android_tools/support/android_support_chromium_java.build_config",
+    "requires_android": true,
+    "supports_android": true,
+    "type": "java_library"
+  },
+  "gradle": {
+    "bundled_srcjars": [],
+    "dependent_android_projects": [],
+    "dependent_java_projects": [
+      "gen/build/android/buildhooks/build_hooks_java.build_config"
+    ],
+    "dependent_prebuilt_jars": []
+  },
+  "javac": {
+    "classpath": [
+      "lib.java/build/android/buildhooks/build_hooks_java.jar"
+    ],
+    "interface_classpath": [
+      "lib.java/build/android/buildhooks/build_hooks_java.interface.jar"
+    ],
+    "resource_packages": [],
+    "srcjars": []
+  }
+}

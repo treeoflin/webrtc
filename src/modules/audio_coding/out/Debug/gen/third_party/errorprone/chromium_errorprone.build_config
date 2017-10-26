@@ -1,0 +1,28 @@
+{
+  "deps_info": {
+    "deps_configs": [],
+    "gradle_treat_as_prebuilt": null,
+    "is_prebuilt": true,
+    "jar_path": "lib.java/third_party/errorprone/error_prone_ant-2.0.6.jar",
+    "java": {
+      "full_classpath": []
+    },
+    "name": "chromium_errorprone.build_config",
+    "path": "gen/third_party/errorprone/chromium_errorprone.build_config",
+    "requires_android": null,
+    "supports_android": null,
+    "type": "java_library"
+  },
+  "gradle": {
+    "bundled_srcjars": [],
+    "dependent_android_projects": [],
+    "dependent_java_projects": [],
+    "dependent_prebuilt_jars": []
+  },
+  "javac": {
+    "classpath": [],
+    "interface_classpath": [],
+    "resource_packages": [],
+    "srcjars": []
+  }
+}

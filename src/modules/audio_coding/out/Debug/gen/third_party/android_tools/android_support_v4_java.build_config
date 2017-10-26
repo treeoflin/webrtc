@@ -1,0 +1,20 @@
+{
+  "deps_info": {
+    "deps_configs": [
+      "gen/third_party/android_tools/support/android_support_compat_java__classes.build_config",
+      "gen/third_party/android_tools/support/android_support_compat_java__subjar_internal_impl_25.0.1.build_config",
+      "gen/third_party/android_tools/support/android_support_core_ui_java__classes.build_config",
+      "gen/third_party/android_tools/support/android_support_core_ui_java__subjar_internal_impl_25.0.1.build_config",
+      "gen/third_party/android_tools/support/android_support_core_utils_java__classes.build_config",
+      "gen/third_party/android_tools/support/android_support_core_utils_java__subjar_internal_impl_25.0.1.build_config",
+      "gen/third_party/android_tools/support/android_support_fragment_java__classes.build_config",
+      "gen/third_party/android_tools/support/android_support_fragment_java__subjar_internal_impl_25.0.1.build_config",
+      "gen/third_party/android_tools/support/android_support_media_compat_java__classes.build_config",
+      "gen/third_party/android_tools/support/android_support_media_compat_java__subjar_internal_impl_25.0.1.build_config"
+    ],
+    "name": "android_support_v4_java.build_config",
+    "path": "gen/third_party/android_tools/android_support_v4_java.build_config",
+    "type": "group"
+  },
+  "gradle": {}
+}

@@ -1,0 +1,31 @@
+{
+  "deps_info": {
+    "deps_configs": [],
+    "dex_path": "gen/third_party/javax_inject/javax_inject_java.dex.jar",
+    "gradle_treat_as_prebuilt": null,
+    "is_prebuilt": true,
+    "jar_path": "lib.java/third_party/javax_inject/javax.inject-1.jar",
+    "java": {
+      "full_classpath": []
+    },
+    "name": "javax_inject_java.build_config",
+    "owned_resources_dirs": [],
+    "owned_resources_zips": [],
+    "path": "gen/third_party/javax_inject/javax_inject_java.build_config",
+    "requires_android": true,
+    "supports_android": true,
+    "type": "java_library"
+  },
+  "gradle": {
+    "bundled_srcjars": [],
+    "dependent_android_projects": [],
+    "dependent_java_projects": [],
+    "dependent_prebuilt_jars": []
+  },
+  "javac": {
+    "classpath": [],
+    "interface_classpath": [],
+    "resource_packages": [],
+    "srcjars": []
+  }
+}

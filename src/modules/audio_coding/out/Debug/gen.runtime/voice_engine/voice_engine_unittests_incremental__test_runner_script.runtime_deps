@@ -1,0 +1,4 @@
+../../../../resources/utility/encapsulated_pcm16b_8khz.wav
+../../../../resources/utility/encapsulated_pcmu_8khz.wav
+../../../../testing/test_env.py
+icudtl.dat

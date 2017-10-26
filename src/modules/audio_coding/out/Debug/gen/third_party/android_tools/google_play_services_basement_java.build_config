@@ -1,0 +1,12 @@
+{
+  "deps_info": {
+    "deps_configs": [
+      "gen/third_party/android_tools/google_play_services_basement_java__classes.build_config",
+      "gen/third_party/android_tools/google_play_services_basement_java__res.build_config"
+    ],
+    "name": "google_play_services_basement_java.build_config",
+    "path": "gen/third_party/android_tools/google_play_services_basement_java.build_config",
+    "type": "group"
+  },
+  "gradle": {}
+}

@@ -1,0 +1,32 @@
+{
+  "deps_info": {
+    "deps_configs": [],
+    "dex_path": "gen/rtc_base/base_java.dex.jar",
+    "gradle_treat_as_prebuilt": null,
+    "is_prebuilt": false,
+    "jar_path": "lib.java/rtc_base/base_java.jar",
+    "java": {
+      "full_classpath": []
+    },
+    "java_sources_file": "gen/rtc_base/base_java.sources",
+    "name": "base_java.build_config",
+    "owned_resources_dirs": [],
+    "owned_resources_zips": [],
+    "path": "gen/rtc_base/base_java.build_config",
+    "requires_android": true,
+    "supports_android": true,
+    "type": "java_library"
+  },
+  "gradle": {
+    "bundled_srcjars": [],
+    "dependent_android_projects": [],
+    "dependent_java_projects": [],
+    "dependent_prebuilt_jars": []
+  },
+  "javac": {
+    "classpath": [],
+    "interface_classpath": [],
+    "resource_packages": [],
+    "srcjars": []
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "deps_info": {
+    "deps_configs": [
+      "gen/third_party/hamcrest/hamcrest_core_java.build_config",
+      "gen/third_party/hamcrest/hamcrest_integration_java.build_config",
+      "gen/third_party/hamcrest/hamcrest_library_java.build_config"
+    ],
+    "name": "hamcrest_java.build_config",
+    "path": "gen/third_party/hamcrest/hamcrest_java.build_config",
+    "type": "group"
+  },
+  "gradle": {}
+}

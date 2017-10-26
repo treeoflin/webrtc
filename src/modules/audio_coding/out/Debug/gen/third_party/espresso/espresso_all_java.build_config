@@ -1,0 +1,15 @@
+{
+  "deps_info": {
+    "deps_configs": [
+      "gen/third_party/espresso/espresso_contrib_java.build_config",
+      "gen/third_party/espresso/espresso_core_java.build_config",
+      "gen/third_party/espresso/espresso_idling_java.build_config",
+      "gen/third_party/espresso/espresso_intents_java.build_config",
+      "gen/third_party/espresso/espresso_web_java.build_config"
+    ],
+    "name": "espresso_all_java.build_config",
+    "path": "gen/third_party/espresso/espresso_all_java.build_config",
+    "type": "group"
+  },
+  "gradle": {}
+}

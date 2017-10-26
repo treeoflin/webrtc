@@ -1,0 +1,6 @@
+../../../../resources/voice_engine/audio_dtx16.wav
+../../../../resources/voice_engine/audio_tiny16.wav
+../../../../resources/voice_engine/audio_tiny48.wav
+../../../../audio/test/low_bandwidth_audio_test.py
+../../../../testing/test_env.py
+icudtl.dat

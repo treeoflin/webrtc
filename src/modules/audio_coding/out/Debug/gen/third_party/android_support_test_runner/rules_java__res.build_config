@@ -1,0 +1,22 @@
+{
+  "deps_info": {
+    "android_manifest": "gen/third_party/android_support_test_runner/rules_java/AndroidManifest.xml",
+    "deps_configs": [],
+    "name": "rules_java__res.build_config",
+    "package_name": "android.support.test.rule",
+    "path": "gen/third_party/android_support_test_runner/rules_java__res.build_config",
+    "r_text": "gen/third_party/android_support_test_runner/rules_java__res_R.txt",
+    "resources_dirs": [
+      "gen/third_party/android_support_test_runner/rules_java/res"
+    ],
+    "resources_zip": "resource_zips/third_party/android_support_test_runner/rules_java__res.resources.zip",
+    "srcjar": "gen/third_party/android_support_test_runner/rules_java__res.srcjar",
+    "type": "android_resources"
+  },
+  "gradle": {},
+  "resources": {
+    "dependency_zips": [],
+    "extra_package_names": [],
+    "extra_r_text_files": []
+  }
+}

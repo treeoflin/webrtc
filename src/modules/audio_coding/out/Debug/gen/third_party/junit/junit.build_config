@@ -1,0 +1,62 @@
+{
+  "deps_info": {
+    "deps_configs": [
+      "gen/third_party/hamcrest/hamcrest_core_java.build_config",
+      "gen/third_party/hamcrest/hamcrest_integration_java.build_config",
+      "gen/third_party/hamcrest/hamcrest_library_java.build_config",
+      "gen/build/android/buildhooks/build_hooks_java.build_config"
+    ],
+    "dex_path": "gen/third_party/junit/junit.dex.jar",
+    "gradle_treat_as_prebuilt": true,
+    "is_prebuilt": false,
+    "jar_path": "lib.java/third_party/junit/junit.jar",
+    "java": {
+      "full_classpath": [
+        "lib.java/third_party/hamcrest/hamcrest-library-1.3.jar",
+        "lib.java/third_party/bazel/desugar/Desugar-runtime.jar",
+        "lib.java/third_party/hamcrest/hamcrest-integration-1.3.jar",
+        "lib.java/build/android/buildhooks/build_hooks_java.jar",
+        "lib.java/third_party/hamcrest/hamcrest-core-1.3.jar"
+      ]
+    },
+    "java_sources_file": "gen/third_party/junit/junit.sources",
+    "name": "junit.build_config",
+    "owned_resources_dirs": [],
+    "owned_resources_zips": [],
+    "path": "gen/third_party/junit/junit.build_config",
+    "proguard_configs": [
+      "../../../../third_party/junit/proguard.flags"
+    ],
+    "requires_android": null,
+    "supports_android": true,
+    "type": "java_library"
+  },
+  "gradle": {
+    "bundled_srcjars": [],
+    "dependent_android_projects": [],
+    "dependent_java_projects": [
+      "gen/build/android/buildhooks/build_hooks_java.build_config"
+    ],
+    "dependent_prebuilt_jars": [
+      "lib.java/third_party/hamcrest/hamcrest-core-1.3.jar",
+      "lib.java/third_party/hamcrest/hamcrest-integration-1.3.jar",
+      "lib.java/third_party/hamcrest/hamcrest-library-1.3.jar"
+    ]
+  },
+  "javac": {
+    "classpath": [
+      "lib.java/third_party/hamcrest/hamcrest-core-1.3.jar",
+      "lib.java/third_party/hamcrest/hamcrest-integration-1.3.jar",
+      "lib.java/third_party/hamcrest/hamcrest-library-1.3.jar",
+      "lib.java/build/android/buildhooks/build_hooks_java.jar"
+    ],
+    "interface_classpath": [
+      "lib.java/third_party/hamcrest/hamcrest-core-1.3.interface.jar",
+      "lib.java/third_party/hamcrest/hamcrest-integration-1.3.interface.jar",
+      "lib.java/third_party/hamcrest/hamcrest-library-1.3.interface.jar",
+      "lib.java/build/android/buildhooks/build_hooks_java.interface.jar"
+    ],
+    "resource_packages": [],
+    "srcjars": []
+  }
+}
